@@ -1,8 +1,24 @@
+use clap::Parser;
+use iyp_cli::{Cli, Commands};
 use neo4rs::*;
 use std::sync::Arc;
 
 #[tokio::main]
 async fn main() {
+    let args = Cli::parse();
+
+    // println!("{:?}", args);
+
+    match &args.command {
+        Commands::Connect(obj) => {
+            println!("{:?}", obj.uri);
+            print!("From command")
+        }
+        Commands::Query(obj) => {
+            println!("{:?}", obj);
+        }
+    }
+
     let uri = "iyp.iijlab.net:7687";
     let user = "neo4j";
     let pass = "neo";
