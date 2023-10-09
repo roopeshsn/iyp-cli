@@ -11,9 +11,6 @@ pub struct Cli {
 pub enum Commands {
     /// Connect with the DB
     Connect(Connect),
-
-    /// Run query
-    Query(Query),
 }
 
 #[derive(Debug, Args)]
@@ -21,9 +18,4 @@ pub struct Connect {
     pub uri: String,
     pub username: String,
     pub password: String,
-}
-
-#[derive(Debug, Args)]
-pub struct Query {
-    pub query: String,
 }

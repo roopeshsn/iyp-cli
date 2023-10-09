@@ -1,3 +1,3 @@
-# IYP CLI
+# Neo4j CLI
 
-CLI for IYP (Internet Yellow Pages)
+CLI for executing Cypher queries by connecting with a Neo4j DB.
