@@ -1,5 +1,5 @@
 use clap::Parser;
-use iyp_cli::{Cli, Commands};
+use neo4j_cli::{Cli, Commands};
 use neo4rs::{query, Graph};
 use rustyline::DefaultEditor;
 use std::error::Error;

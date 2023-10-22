@@ -479,18 +479,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "iyp-cli"
-version = "0.1.0"
-dependencies = [
- "clap",
- "futures",
- "neo4rs",
- "rustyline",
- "tokio",
- "uuid",
-]
-
-[[package]]
 name = "js-sys"
 version = "0.3.64"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -551,6 +539,18 @@ dependencies = [
  "libc",
  "wasi 0.11.0+wasi-snapshot-preview1",
  "windows-sys",
+]
+
+[[package]]
+name = "neo4j-cli"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "futures",
+ "neo4rs",
+ "rustyline",
+ "tokio",
+ "uuid",
 ]
 
 [[package]]
