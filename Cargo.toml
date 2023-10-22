@@ -8,7 +8,7 @@ authors = ["Roopesh Saravanan <roopeshsaravanan.dev@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/roopeshsn/neo4j-cli/"
 license = "MIT OR Apache-2.0"
-license-file = "LICENSE.txt"
+license-file = "LICENSE.md"
 keywords = ["neo4j", "neo4j-cli", "cli for neo4j" "cli", "client"]
 categories = ["command-line-utilities"]
 
